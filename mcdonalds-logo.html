@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's Logo</title>
+    <style>
+        div.container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        div.mc {
+            display: flex;
+            position: relative;
+            background-color: #FFCD00;
+            height: 600px;
+            width: 190px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        span::after {
+            position: absolute;
+            content: " ";
+            background-color: rgb(255, 255, 255);
+            height: 310px;
+            width: 200px;
+            left: -50px;
+            bottom: -29px;
+        }
+
+        span {
+            position: absolute;
+            background-color: rgb(255, 255, 255);
+            width: 106px;
+            height: 560px;
+            border-radius: 50%;
+        }
+
+        img {
+            height: 300px;
+        }
+
+        .small-container {
+            width: 100px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            left: 135px;
+            top: 358px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <main style="display: flex;">
+        <div>
+            <h1>
+                My MacDonald's Logo made in CSS
+            </h1>
+            <div class="container">
+                <div class="mc">
+                    <span>
+                    </span>
+                </div>
+                <div class="mc" style="margin-left: -40px;">
+                    <span>
+                    </span>
+                </div>
+                <div class="small-container">
+        
+                </div>
+            </div>
+        </div>
+
+
+        <div style="margin-left: 200px;">
+            <h1 style="text-align: center;">
+                McDonald's Logo
+            </h1>
+            <img src="McDonald's_Golden_Arches.svg.png" alt="mcdonald's logo">
+        </div>
+    </main>
+</body>
+</html>
